@@ -8,7 +8,7 @@ This is an example of a file change on the local repository
 
 :smile:
 
-### Typing
+## Typing
 
          01010110001
             - One long number  01,010,110,001

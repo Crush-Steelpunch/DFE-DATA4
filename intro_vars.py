@@ -6,10 +6,14 @@
 # number2 = float(input("Please enter the second number: "))
 # answer = number1 + number2
 
-#print(type(numtwo))
+# print(type(numtwo))
 
-textvar1 = "I like pies"
+textvar1 = "Faz came over and said \"Hello\"."
+textvar3 = "I like now\\next"
 numvar1 = 42
 
-textvar2 = textvar1.count("i")
-print(textvar2)
+textvar2 = textvar1.isalnum()
+print(f"{textvar3}+{numvar1}")
+
+boolvar = True
+print(boolvar)

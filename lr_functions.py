@@ -1,5 +1,5 @@
 def gradescore(inputscore1,inputscore2,inputscore3):
-    totalscorepercent = (inputscore1 + inputscore2 + inputscore3) / 175 * 100
+    totalscorepercent = (inputscore1 + inputscore2 - inputscore3) / 175 * 100
     return totalscorepercent
 
 def reverseaword(inword):
@@ -36,3 +36,19 @@ def Number_plate_data_retreval():
  
     print(response.text.encode('utf8'))
 
+def dice(roll):
+    import random
+    if roll == 'Roll the Dice':
+        return random.randint(1, 6)
+    else:
+        return "MEOW"
+
+
+def arithmeticoutput(x,y):
+    lr_sum = x + y
+    lr_dif = y - x
+    lr_prod = x * y
+    lr_quot = x * y
+    lr_rem = x % y
+    lr_pow = y**x
+    return (lr_sum,lr_dif,lr_prod,lr_quot,lr_rem,lr_pow)

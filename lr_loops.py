@@ -21,11 +21,11 @@
 #     print(loopvar, cool_cows)
 # While Loop
 
-# Score = 500
-# while Score > 100 or Score < 0:
-#     Score = int(input("enter a score: "))
-#     if Score > 100 or Score < 0:
-#         print("Not a valid score, try again")
+Score = 500
+while Score > 100:
+    Score = int(input("enter a score: "))
+    # if Score > 100 or Score < 0:
+    #     print("Not a valid score, try again")
 
 # if Score >= 85:
 #     print("Distinction")

@@ -9,7 +9,6 @@ class Dog:
 
 
     def speak(self):
-        print(getattr(self.energy)
         print("woof")
     
     def manyspeak(self):

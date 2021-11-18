@@ -1,5 +1,5 @@
 def gradescore(inputscore1,inputscore2,inputscore3):
-    totalscorepercent = (inputscore1 + inputscore2 - inputscore3) / 175 * 100
+    totalscorepercent = (inputscore1 + inputscore2 + inputscore3) / 175 * 100
     return totalscorepercent
 
 def reverseaword(inword):
@@ -52,3 +52,15 @@ def arithmeticoutput(x,y):
     lr_rem = x % y
     lr_pow = y**x
     return (lr_sum,lr_dif,lr_prod,lr_quot,lr_rem,lr_pow)
+
+
+def return_repos_by_language(lang):
+    import requests
+    url = "https://api.github.com/search/repositories?q=language:" + lang
+    response = requests.get(url)
+    if response.ok:
+        data = response.json()
+        type(data)
+        return data["total_count"]
+    else:
+        return 'Somthing went wrong'

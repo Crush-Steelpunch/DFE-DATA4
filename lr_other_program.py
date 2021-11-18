@@ -14,7 +14,7 @@ return_maths = lr_functions.arithmeticoutput(5, 10)
 for i in return_maths:
     print(i)
     
-
+print(lr_functions.return_repos_by_language("python"))
 
 # reverseaworkd = lr_functions.reverseaword("somethingthatisntthesameasthevariable")
 # lenghofathing = len("this is a string")

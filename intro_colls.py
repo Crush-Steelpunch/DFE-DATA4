@@ -16,6 +16,12 @@ cool_pigs = ["Chris P. Bacon", "Hamlet", "Hogwarts"]
 
 cool_animals = [cool_cows, cool_sheep, cool_pigs]
 
+invar1 = 111
+while invar1 != 0:
+    invar1 = int(input("TYPE: "))
+    cool_cows.append(invar1)
+    print(cool_cows)
+
 print(cool_animals[0][1:3])
 
 booksDict = { "Title":"Concrete for Fun","Published":1972, "Author":"Ted McPavingstone", "Cover":"Ultra-Hardback","Price":5.99 }
